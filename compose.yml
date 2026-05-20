@@ -1,0 +1,33 @@
+services:
+  mirakc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mirakc-custom:latest
+    container_name: mirakc
+    init: true
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - 40772:40772
+    environment:
+      TZ: Asia/Tokyo
+    devices:
+      - /dev/bus/usb:/dev/bus/usb
+      - /dev/px4video0:/dev/px4video0
+      - /dev/px4video1:/dev/px4video1
+      - /dev/px4video2:/dev/px4video2
+      - /dev/px4video3:/dev/px4video3
+      - /dev/px4video4:/dev/px4video4
+      - /dev/px4video5:/dev/px4video5
+      - /dev/px4video6:/dev/px4video6
+      - /dev/px4video7:/dev/px4video7
+    volumes:
+      - ./config.yml:/etc/mirakc/config.yml:ro
+      - ./epg:/var/lib/mirakc/epg
+    logging:
+      driver: json-file
+      options:
+        max-file: "1"
+        max-size: "10m"
+

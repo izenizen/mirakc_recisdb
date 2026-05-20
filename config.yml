@@ -1,0 +1,296 @@
+server:
+  addrs:
+    - http: 0.0.0.0:40772
+epg:
+  cache-dir: /var/lib/mirakc/epg
+channels:
+  - name: J:COMテレビ
+    type: GR
+    channel: T13
+    extra-args: ''
+    disabled: false
+  - name: TOKYO MX
+    type: GR
+    channel: T16
+    extra-args: ''
+    disabled: false
+  - name: フジテレビジョン
+    type: GR
+    channel: T21
+    extra-args: ''
+    disabled: false
+  - name: TBS
+    type: GR
+    channel: T22
+    extra-args: ''
+    disabled: false
+  - name: テレビ東京
+    type: GR
+    channel: T23
+    extra-args: ''
+    disabled: false
+  - name: テレビ朝日
+    type: GR
+    channel: T24
+    extra-args: ''
+    disabled: false
+  - name: 日本テレビ
+    type: GR
+    channel: T25
+    extra-args: ''
+    disabled: false
+  - name: NHKEテレ東京
+    type: GR
+    channel: T26
+    extra-args: ''
+    disabled: false
+  - name: NHK総合・東京
+    type: GR
+    channel: T27
+    extra-args: ''
+    disabled: false
+  - name: J:COMチャンネル
+    type: GR
+    channel: T29
+    extra-args: ''
+    disabled: false
+  - name: テレ玉
+    type: GR
+    channel: T32
+    extra-args: ''
+    disabled: false
+  - name: BS01/TS0
+    type: BS
+    channel: BS01_0
+    extra-args: --tsid 16400
+    disabled: false
+  - name: BS01/TS1
+    type: BS
+    channel: BS01_1
+    extra-args: --tsid 16401
+    disabled: false
+  - name: BS01/TS2
+    type: BS
+    channel: BS01_2
+    extra-args: --tsid 16402
+    disabled: false
+  - name: BS03/TS0
+    type: BS
+    channel: BS03_0
+    extra-args: --tsid 16432
+    disabled: false
+  - name: BS03/TS1
+    type: BS
+    channel: BS03_1
+    extra-args: --tsid 17969
+    disabled: false
+  - name: BS03/TS2
+    type: BS
+    channel: BS03_2
+    extra-args: --tsid 17970
+    disabled: false
+  - name: BS05/TS0
+    type: BS
+    channel: BS05_0
+    extra-args: --tsid 17488
+    disabled: false
+  - name: BS05/TS1
+    type: BS
+    channel: BS05_1
+    extra-args: --tsid 17489
+    disabled: false
+  - name: BS09/TS0
+    type: BS
+    channel: BS09_0
+    extra-args: --tsid 16528
+    disabled: false
+  - name: BS09/TS1
+    type: BS
+    channel: BS09_1
+    extra-args: --tsid 16530
+    disabled: false
+  - name: BS13/TS0
+    type: BS
+    channel: BS13_0
+    extra-args: --tsid 16592
+    disabled: false
+  - name: BS13/TS1
+    type: BS
+    channel: BS13_1
+    extra-args: --tsid 16593
+    disabled: false
+  - name: BS13/TS2
+    type: BS
+    channel: BS13_2
+    extra-args: --tsid 18130
+    disabled: false
+  - name: BS15/TS0
+    type: BS
+    channel: BS15_0
+    extra-args: --tsid 16625
+    disabled: false
+  - name: BS15/TS1
+    type: BS
+    channel: BS15_1
+    extra-args: --tsid 16626
+    disabled: false
+  - name: BS15/TS2
+    type: BS
+    channel: BS15_2
+    extra-args: --tsid 18675
+    disabled: false
+  - name: BS19/TS0
+    type: BS
+    channel: BS19_0
+    extra-args: --tsid 18224
+    disabled: false
+  - name: BS19/TS1
+    type: BS
+    channel: BS19_1
+    extra-args: --tsid 18225
+    disabled: false
+  - name: BS19/TS2
+    type: BS
+    channel: BS19_2
+    extra-args: --tsid 18226
+    disabled: false
+  - name: BS19/TS3
+    type: BS
+    channel: BS19_3
+    extra-args: --tsid 18227
+    disabled: false
+  - name: BS21/TS0
+    type: BS
+    channel: BS21_0
+    extra-args: --tsid 18256
+    disabled: false
+  - name: BS21/TS1
+    type: BS
+    channel: BS21_1
+    extra-args: --tsid 18257
+    disabled: false
+  - name: BS21/TS2
+    type: BS
+    channel: BS21_2
+    extra-args: --tsid 18258
+    disabled: false
+  - name: BS23/TS0
+    type: BS
+    channel: BS23_0
+    extra-args: --tsid 18288
+    disabled: false
+  - name: BS23/TS1
+    type: BS
+    channel: BS23_1
+    extra-args: --tsid 18801
+    disabled: false
+  - name: BS23/TS2
+    type: BS
+    channel: BS23_2
+    extra-args: --tsid 18803
+    disabled: false
+  - name: ND02
+    type: CS
+    channel: CS02
+    extra-args: ''
+    disabled: false
+  - name: ND04
+    type: CS
+    channel: CS04
+    extra-args: ''
+    disabled: false
+  - name: ND06
+    type: CS
+    channel: CS06
+    extra-args: ''
+    disabled: false
+  - name: ND08
+    type: CS
+    channel: CS08
+    extra-args: ''
+    disabled: false
+  - name: ND10
+    type: CS
+    channel: CS10
+    extra-args: ''
+    disabled: false
+  - name: ND12
+    type: CS
+    channel: CS12
+    extra-args: ''
+    disabled: false
+  - name: ND14
+    type: CS
+    channel: CS14
+    extra-args: ''
+    disabled: false
+  - name: ND16
+    type: CS
+    channel: CS16
+    extra-args: ''
+    disabled: false
+  - name: ND18
+    type: CS
+    channel: CS18
+    extra-args: ''
+    disabled: false
+  - name: ND20
+    type: CS
+    channel: CS20
+    extra-args: ''
+    disabled: false
+  - name: ND22
+    type: CS
+    channel: CS22
+    extra-args: ''
+    disabled: false
+  - name: ND24
+    type: CS
+    channel: CS24
+    extra-args: ''
+    disabled: false
+tuners:
+  - name: 'PLEX PX-Q3U4 (Terrestrial) #1'
+    types:
+      - GR
+    command: recisdb tune --device /dev/px4video2 --channel {{{channel}}} -
+    disabled: false
+  - name: 'PLEX PX-Q3U4 (Terrestrial) #2'
+    types:
+      - GR
+    command: recisdb tune --device /dev/px4video3 --channel {{{channel}}} -
+    disabled: false
+  - name: 'PLEX PX-Q3U4 (Terrestrial) #3'
+    types:
+      - GR
+    command: recisdb tune --device /dev/px4video6 --channel {{{channel}}} -
+    disabled: false
+  - name: 'PLEX PX-Q3U4 (Terrestrial) #4'
+    types:
+      - GR
+    command: recisdb tune --device /dev/px4video7 --channel {{{channel}}} -
+    disabled: false
+  - name: 'PLEX PX-Q3U4 (Satellite) #1'
+    types:
+      - BS
+      - CS
+    command: recisdb tune --device /dev/px4video0 --channel {{{channel}}} {{{extra_args}}} -
+    disabled: false
+  - name: 'PLEX PX-Q3U4 (Satellite) #2'
+    types:
+      - BS
+      - CS
+    command: recisdb tune --device /dev/px4video1 --channel {{{channel}}} {{{extra_args}}} -
+    disabled: false
+  - name: 'PLEX PX-Q3U4 (Satellite) #3'
+    types:
+      - BS
+      - CS
+    command: recisdb tune --device /dev/px4video4 --channel {{{channel}}} {{{extra_args}}} -
+    disabled: false
+  - name: 'PLEX PX-Q3U4 (Satellite) #4'
+    types:
+      - BS
+      - CS
+    command: recisdb tune --device /dev/px4video5 --channel {{{channel}}} {{{extra_args}}} -
+    disabled: false
