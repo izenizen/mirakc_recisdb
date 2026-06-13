@@ -19,7 +19,7 @@ RUN cd /tmp/libsobacas && autoreconf -i && \
     make
 
 # --- ステージ2: 実行環境 ---
-FROM mirakc/mirakc:3.4.68-debian
+FROM mirakc/mirakc:main-debian
 
 USER root
 
